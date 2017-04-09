@@ -1,0 +1,432 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+   <title>Dosage Calculator</title>
+
+</head>
+<body bgcolor="#FFFFFF">
+<center><font size="+1"><b>Dosage calculator</b></font></center>
+
+<p><font size="-1">Values here based on information cotanined in
+William White's Frequently Asked Questions about Dextromethorphan.
+All listed values are approximations. This section is intended as a
+quick reference for individuals with ample DXM experience, it is not
+suitable for inexperienced individuals. YOU MUST CONSULT
+</font><a href="http://dxm.darkridge.com/faq/index.html"><font size="-1">THE DEXTROMETHORPHAN
+FAQ</font></a><font size="-1"> AND AN EXPERIENCED INDIVIDUAL BEFORE
+ATTEMPTING TO EXPERIENCE DXM. Cold medicines are dangerous when taken
+in large quantities and have the potential of making you Sick or
+Dead.</font></p>
+
+<p><script language="JavaScript">function fix()
+	{
+	var w;
+	w=parseFloat(document.tform.wunit.options[
+		document.tform.wunit.selectedIndex].value)*
+		parseFloat(document.tform.wei.value)/
+		parseFloat(document.tform.what.options[
+		document.tform.what.selectedIndex].value);
+	document.tform.p1l.value=w*1.5;
+	document.tform.p1h.value=w*2.5;
+	document.tform.p2l.value=w*2.5;
+	document.tform.p2h.value=w*7.5;
+	document.tform.p3l.value=w*7.5;
+	document.tform.p3h.value=w*15;
+	document.tform.p4l.value=w*15;
+	document.tform.p4h.value=w*20;
+	document.tform.p1u.value=w*2.7;
+	document.tform.p2u.value=w*6.4;
+	document.tform.p3u.value=w*9.4;
+	document.tform.p4u.value=w*18;
+	}</script>
+</p><form action="" method="POST" name="tform" type="post">
+   <p><font size="+1"><b>Javascript DXM Dosage Calculator<br>
+   </b></font>I weigh:&nbsp;<input name="wei" size="4" onchange="fix()" type="text">
+   <select name="wunit" type="text" onchange="fix()">
+      <option value="1" selected="selected">kg
+      </option><option value="0.4536">lbs
+   </option></select> &nbsp;and I want to take&nbsp; <select name="what" onchange="fix()">
+      <option value="75" selected="selected">Robitussin (oz)
+      </option><option value="2.639627495768">Robitussin (ml)
+      </option><option value="1">Pure (mg)
+      </option><option value="30">Coricidin (tablets) *
+      </option><option value="30">Drixoral (caplets)
+   </option></select>&nbsp;.</p>
+   
+   <p><table border="0" cellpadding="2" cellspacing="0" width="100%">
+      <tbody><tr bgcolor="#FFFFFF">
+         <td width="39">
+            <center>Plateau</center>
+         </td>
+         <td>
+            <center>Minimum</center>
+         </td>
+         <td>
+            <center>Maximum</center>
+         </td>
+         <td>
+            <center>Usenet recommends</center>
+         </td>
+      </tr>
+      <tr bgcolor="#FFCCCC">
+         <td width="39">
+            <center>1st:</center>
+         </td>
+         <td>
+            <center><input name="p1l" value="0" size="8" type="text"></center>
+         </td>
+         <td>
+            <center><input name="p1h" value="0" size="8" type="text"></center>
+         </td>
+         <td>
+            <center><input name="p1u" value="0" size="8" type="text"></center>
+         </td>
+      </tr>
+      <tr bgcolor="#FF9999">
+         <td width="39">
+            <center>2nd:</center>
+         </td>
+         <td>
+            <center><input name="p2l" value="0" size="8" type="text"></center>
+         </td>
+         <td>
+            <center><input name="p2h" value="0" size="8" type="text"></center>
+         </td>
+         <td>
+            <center><input name="p2u" value="0" size="8" type="text"></center>
+         </td>
+      </tr>
+      <tr bgcolor="#FF6666">
+         <td width="39">
+            <center>3rd:</center>
+         </td>
+         <td>
+            <center><input name="p3l" value="0" size="8" type="text"></center>
+         </td>
+         <td>
+            <center><input name="p3h" value="0" size="8" type="text"></center>
+         </td>
+         <td>
+            <center><input name="p3u" value="0" size="8" type="text"></center>
+         </td>
+      </tr>
+      <tr bgcolor="#CC3333">
+         <td width="39">
+            <center>4th:</center>
+         </td>
+         <td>
+            <center><input name="p4l" value="0" size="8" type="text"></center>
+         </td>
+         <td>
+            <center><input name="p4h" value="0" size="8" type="text"></center>
+         </td>
+         <td>
+            <center><input name="p4u" value="0" size="8" type="text"></center>
+         </td>
+      </tr>
+   </tbody></table>
+    *<font color="#FF0000" size="-1">Note: Because of antihistimine
+   product, Coricidin™ is suitable for only first and
+   second-plateau dosage.<br>
+   </font><font size="-1">Thanks to Patrik Lundin for the
+   code.</font>
+</p></form><p></p>
+
+<center><font size="-1">
+
+<hr>
+
+</font><font size="+1"><b>Dosage Scale</b></font>
+
+<p><font size="-1"><img src="Dosage%20Calculator_files/scale.gif" alt="graphical doseage scale" align="bottom" height="102" width="467">
+
+</font></p><hr><font size="-1">
+
+</font><font size="+1"><b>Metric/US Conversion Table</b></font><p></p>
+
+<p><font size="-1"><table border="0" width="100%">
+   <tbody><tr>
+      <td width="151">
+         <p align="right">1 pound (lb) =</p>
+      </td>
+      <td width="178">
+         <p>0.4536 kilogram (kg)</p>
+      </td>
+      <td width="53">
+         <p align="right">1 kg =</p>
+      </td>
+      <td>
+         <p>2.2046 pounds</p>
+      </td>
+   </tr>
+   <tr>
+      <td width="151">
+         <p align="right">1 US Fluid Ounce (fl oz) =</p>
+      </td>
+      <td width="178">
+         <p>28.4131 milliliters (ml)</p>
+      </td>
+      <td width="53">
+         <p align="right">1 ml =</p>
+      </td>
+      <td>
+         <p>0.0352 fl oz</p>
+      </td>
+   </tr>
+   <tr>
+      <td width="151">
+         <p align="right">1 milligram (mg) =</p>
+      </td>
+      <td width="178">
+         <p>3.5274 ounces (oz)</p>
+      </td>
+      <td width="53">
+         <p align="right">1 oz =</p>
+      </td>
+      <td>
+         <p>0.2835 mg</p>
+      </td>
+   </tr>
+</tbody></table>
+ </font></p>
+
+<p><font size="-1">
+
+</font></p><hr><font size="-1">
+
+</font><font size="+1"><b>Dosage Table</b></font><p></p>
+
+<p><table border="1"><caption>Table 1: DXM Plateaus and Dosages</caption>
+   <tbody><tr>
+      <th>
+         <p></p>
+      </th>
+      <td>
+         <p></p>
+      </td>
+      <th>
+         <p>First</p>
+      </th>
+      <th>
+         <p>Second</p>
+      </th>
+      <th>
+         <p>Third</p>
+      </th>
+      <th>
+         <p>Fourth</p>
+      </th>
+   </tr>
+   <tr>
+      <th>
+         <p></p>
+      </th>
+      <td>
+         <center><b>Dosage Range (mg/kg)</b></center>
+      </td>
+      <td>
+         <p>1.5-2.5 mg/kg</p>
+      </td>
+      <td>
+         <p>2.5-7.5 mg/kg</p>
+      </td>
+      <td>
+         <p>7.5-15 mg/kg</p>
+      </td>
+      <td>
+         <p>&gt;15mg/kg</p>
+      </td>
+   </tr>
+   <tr>
+      <th>
+         <p></p>
+      </th>
+      <td>
+         <center><b>Usenet Suggestions (mg/kg)</b></center>
+      </td>
+      <td>
+         <p>2.7 mg/kg</p>
+      </td>
+      <td>
+         <p>6.4 mg/kg</p>
+      </td>
+      <td>
+         <p>9.4 mg/kg</p>
+      </td>
+      <td>
+         <p>18mg/kg</p>
+      </td>
+   </tr>
+   <tr bgcolor="#66CCFF">
+      <th>
+         <p><font color="#000099">metric</font></p>
+      </th>
+      <td>
+         <center><b>Gelcaps (30mg) for 75kg adult</b></center>
+      </td>
+      <td>
+         <p>4 to 6 gelcaps</p>
+      </td>
+      <td>
+         <p>6 to 18 gelcaps</p>
+      </td>
+      <td>
+         <p>18 to 37 gelcaps</p>
+      </td>
+      <td>
+         <p>&gt;37 gelcaps</p>
+      </td>
+   </tr>
+   <tr>
+      <th>
+         <p></p>
+      </th>
+      <td>
+         <center><b>Adjust per 10kg</b></center>
+      </td>
+      <td>
+         <p>1/2 to 1 gelcap</p>
+      </td>
+      <td>
+         <p>1 to 2.5 gelcaps</p>
+      </td>
+      <td>
+         <p>2.5 to 5 gelcaps</p>
+      </td>
+      <td>
+         <p>5 gelcaps</p>
+      </td>
+   </tr>
+   <tr bgcolor="#FF9999">
+      <th>
+         <p><font color="#990000">US</font></p>
+      </th>
+      <td>
+         <center><b>Gelcaps (30mg) for 150lb adult</b></center>
+      </td>
+      <td>
+         <p>3 to 5 gelcaps</p>
+      </td>
+      <td>
+         <p>5 to 17 gelcaps</p>
+      </td>
+      <td>
+         <p>17 to 34 gelcaps</p>
+      </td>
+      <td>
+         <p>&gt;34 gelcaps</p>
+      </td>
+   </tr>
+   <tr>
+      <th>
+         <p></p>
+      </th>
+      <td>
+         <center><b>Adjust per 25lb</b></center>
+      </td>
+      <td>
+         <p>1/2 to 1 gelcaps</p>
+      </td>
+      <td>
+         <p>1 to 2.5 gelcaps</p>
+      </td>
+      <td>
+         <p>2.5 to 5.5 gelcaps</p>
+      </td>
+      <td>
+         <p>5.5 gelcaps</p>
+      </td>
+   </tr>
+   <tr bgcolor="#66CCFF">
+      <th>
+         <p><font color="#000099">metric</font></p>
+      </th>
+      <td>
+         <center><b>Syrup (3mg/ml) for 75kg adult</b></center>
+      </td>
+      <td>
+         <p>37 to 62 ml</p>
+      </td>
+      <td>
+         <p>62 to 187 ml</p>
+      </td>
+      <td>
+         <p>187 to 375 ml</p>
+      </td>
+      <td>
+         <p>&gt;375 ml</p>
+      </td>
+   </tr>
+   <tr>
+      <th>
+         <p></p>
+      </th>
+      <td>
+         <center><b>Adjust per 10kg</b></center>
+      </td>
+      <td>
+         <p>5 to 8 ml</p>
+      </td>
+      <td>
+         <p>8 to 25 ml</p>
+      </td>
+      <td>
+         <p>25 to 50 ml</p>
+      </td>
+      <td>
+         <p>50 ml</p>
+      </td>
+   </tr>
+   <tr bgcolor="#FF9999">
+      <th>
+         <p><font color="#990000">US</font></p>
+      </th>
+      <td>
+         <center><b>Syrup (3mg/ml) for 150lb adult</b></center>
+      </td>
+      <td>
+         <p>2 tbsp to 2 oz (1/4 cup)</p>
+      </td>
+      <td>
+         <p>2 oz to 5.5 oz (2/3 cup)</p>
+      </td>
+      <td>
+         <p>5.5 oz to 11 oz (1 1/3 cup)</p>
+      </td>
+      <td>
+         <p>&gt;11oz</p>
+      </td>
+   </tr>
+   <tr>
+      <th>
+         <p></p>
+      </th>
+      <td>
+         <center><b>Adjust per 25lb</b></center>
+      </td>
+      <td>
+         <p>1 tsp to 2 tsp</p>
+      </td>
+      <td>
+         <p>2 tsp to 1 oz (1/8 cup)</p>
+      </td>
+      <td>
+         <p>2 tbsp to 2oz (1/4 cup)</p>
+      </td>
+      <td>
+         <p>2 oz</p>
+      </td>
+   </tr>
+</tbody></table>
+</p></center>
+
+<p>
+
+</p><hr align="left" width="80%">
+
+<font size="-1">The Dextromethorphan website ©1998 your mom
+ [</font><a href="http://dxm.darkridge.com/faq/index.html" target="_self"><font size="-1">faq</font></a><font size="-1">]
+[</font><a href="http://dxm.darkridge.com/disclaimer.html" target="_self"><font size="-1">disclaimer</font></a><font size="-1">]
+[</font><a href="http://dxm.darkridge.com/wwwboard/wwwboard.html" target="_self"><font size="-1">messageboard</font></a><font size="-1">]</font><p></p>
+
+
+</body></html>
