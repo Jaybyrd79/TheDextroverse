@@ -27,10 +27,10 @@ $basedir = "/wwwboard";
 $baseurl = "http://www.thedextroverse.com/wwwboard";
 $cgi_url = "/cgi-bin/wwwboard.pl";
 
-$mesgdir = "messages";
-$datafile = "data.txt";
-$mesgfile = "wwwboard.html";
-$faqfile = "faq.html";
+$mesgdir = "wwwboard/messages";
+$datafile = "wwwboard/messages/data.txt";
+$mesgfile = "wwwboard/messages/wwwboard.html";
+$faqfile = "wwwboard/messages/faq.html";
 
 $ext = "html";
 
