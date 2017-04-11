@@ -25,7 +25,7 @@
 
 $basedir = "/wwwboard";
 $baseurl = "http://www.thedextroverse.com/wwwboard";
-$cgi_url = "http://www.thedextroverse.com/cgi-bin/wwwboard.pl";
+$cgi_url = "/cgi-bin/wwwboard.pl";
 
 $mesgdir = "messages";
 $datafile = "data.txt";
